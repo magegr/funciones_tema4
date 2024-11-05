@@ -8,6 +8,8 @@
     <?php
     /*Escribe un script para mostrar en orden inverso los valores de un array.  
     Coloca estos valores previamente en un array*/
+    $array = [1,2,3,4,5,6];
+    print_r(array_reverse($array));
     
     ?>
 </body>
