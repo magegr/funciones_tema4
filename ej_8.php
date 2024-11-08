@@ -21,6 +21,21 @@ Se convertiría en:
 [ 5, 4, 4 ]
 
 Puedes usar las funciones que quieras.*/
+
+$nueva=[
+    
+];
+$array=[
+/*0*/[ 1, 5, 8, 5],
+/*1*/[ 7, 3, 2, 4],
+/*2*/[ 1, 6, 2, 4],
+];
+for( $i=0;$i<count($array);$i++){
+    for($j=0;$j<count($array[$i]);$j++){
+        $nueva[$j][]=$array[$i][$j];
+    }
+}
+var_dump($nueva);
     ?>
 </body>
 </html>
